@@ -16,6 +16,10 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="food">
     <select id="foodShow" resultType="hashmap">
-        select name,imageUrl,practice,description,price,number from  food
+        select name,imageUrl,practice,description,price,number,restaurant from  food
     </select>
+
+    <insert id="insertFood" parameterType="wxp.service.entity.Food">
+        insert into food(name,imageUrl,practice,description,price,number,restaurant) VALUES(#{name},#{imageUrl},#{practice},#{description},#{price},#{number},#{restaurant})
+    </insert>
 </mapper>

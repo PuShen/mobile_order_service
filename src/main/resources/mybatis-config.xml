@@ -18,6 +18,7 @@
 
     <mappers>
         <mapper resource="mapper/food.xml"/>
+        <mapper resource="mapper/deskno.xml"/>
     </mappers>
 
 </configuration>
