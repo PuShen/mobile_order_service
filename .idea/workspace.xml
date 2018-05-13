@@ -6,7 +6,10 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de7b171d-b96f-4b06-b7e2-f501fd9b2041" name="Default" comment="接口开发" />
+    <list default="true" id="de7b171d-b96f-4b06-b7e2-f501fd9b2041" name="Default" comment="接口开发">
+      <change beforePath="$PROJECT_DIR$/../mobile_order_service/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile_order_service/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mobile_order_service/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../mobile_order_service/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -478,16 +481,16 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5060514" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50680786" side_tool="true" weight="0.62193125" />
       <window_info anchor="bottom" id="Application Servers" order="8" sideWeight="0.4969743" weight="0.3289689" />
       <window_info anchor="right" id="Maven Projects" order="4" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.65957445" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.87397707" />
       <window_info anchor="bottom" id="Spring" order="7" weight="0.3289689" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49394855" visible="true" weight="0.62193125" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49319214" weight="0.62193125" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4942717" visible="true" weight="0.29198185" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4942717" visible="true" weight="0.2965204" />
       <window_info anchor="right" id="Bean Validation" order="6" weight="0.32980332" />
       <window_info id="Web" order="2" sideWeight="0.5057283" side_tool="true" weight="0.34795764" />
       <window_info anchor="right" id="Database" order="5" weight="0.32980332" />
@@ -538,9 +541,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
     <MESSAGE value="项目初始化" />
     <MESSAGE value="接口开发" />
     <option name="LAST_COMMIT_MESSAGE" value="接口开发" />
