@@ -1,0 +1,40 @@
+.item{
+    border: solid 1px #cccccc;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 3px #888888;
+}
+.item table td{
+    border: 0;
+}
+.list_image{
+    width: 20%;
+    text-align: left;
+}
+.list_name{
+    width: 50%;
+    text-align: left;
+}
+.list_subtract{
+    width: 5%;
+    text-align: right;
+}
+.list_number{
+    width: 6%;
+    text-align: center;
+}
+.list_plus{
+    width: 5%;
+    text-align: left;
+}
+.list_reset{
+    width: 15%;
+    text-align: center;
+}
+.stock_reset{
+    height: 30px;
+    background-color: royalblue;
+    color: white;
+}
+.plus,.subtract{
+    border-radius: 10px;
+}

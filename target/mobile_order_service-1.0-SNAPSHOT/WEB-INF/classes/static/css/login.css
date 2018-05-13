@@ -1,0 +1,30 @@
+#login{
+    height: 300px;
+    width: 360px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid #cccccc;
+    box-shadow: 0 5px 3px #888888;
+    margin-left: -180px;
+    margin-top: -150px;
+    text-align: center;
+    border-radius: 20px;
+}
+div{
+    margin-top: 100px;
+}
+span,input{
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.edit{
+    height: 40px;
+    width: 222px;
+}
+#button_login{
+    width:80px ;
+    height:30px ;
+    background-color: royalblue;
+    color: white;
+}

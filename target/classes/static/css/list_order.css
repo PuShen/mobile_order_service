@@ -1,0 +1,30 @@
+.item{
+    border: solid 1px #cccccc;
+    margin-bottom: 10px;
+    box-shadow: 0 5px 3px #888888;
+    padding: 10px;
+}
+.item table{
+    border: 0;
+}
+.item table td{
+    border: 0;
+}
+.list_time{
+    width: 30%;
+    text-align: left;
+}
+.list_no{
+    width: 10%;
+    text-align: left;
+}
+.list_items{
+    width: 40%;
+    text-align: center;
+    color: gray;
+}
+.list_total_price{
+    width: 20%;
+    text-align: center;
+    color: red;
+}

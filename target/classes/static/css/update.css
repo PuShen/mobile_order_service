@@ -1,0 +1,35 @@
+.left{
+    width: 30%;
+    text-align: right;
+}
+.right{
+    width: 70%;
+}
+td{
+    padding: 5px;
+}
+textarea{
+    height: 180px;
+    width: 600px;
+}
+input{
+    height: 30px;
+}
+select{
+    height: 30px;
+    width: 173px;
+}
+#update{
+    width:80px ;
+    margin-top: 20px;
+    background-color: royalblue;
+    color: white;
+}
+#back{
+    width: 20px;
+    height:20px;
+    margin-right: 10px;
+}
+h4{
+    display: inline;
+}

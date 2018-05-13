@@ -1,0 +1,32 @@
+table,td{
+    border: 1px solid #cccccc;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#table_head{
+    background-color: lightskyblue;
+}
+#name{
+    width: 15%;
+}
+#image{
+    width: 15%;
+}
+#practice{
+    width: 14%;
+}
+#description{
+    width: 30%;
+}
+#price{
+    width: 10%;
+}
+#number{
+    width: 8%;
+}
+#operator{
+    width: 8%;
+}
+

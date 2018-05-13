@@ -1,6 +1,9 @@
 server:
   port: 9999
 
+web:
+  upload-path: /root/images/
+
 mybatis:
   config-location: classpath:mybatis-config.xml
 
@@ -10,12 +13,17 @@ security:
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/mobile_order
+    url: jdbc:mysql://rm-bp10ix261s5m171demo.mysql.rds.aliyuncs.com:3306/mobile_order?useSSL=false&useUnicode=true&characterEncoding=utf-8
     username: root
-    password:
+    password: wxp*03014672
     driver-class-name: com.mysql.jdbc.Driver
 
   mvc:
     view:
       prefix: /WEB-INF/jsp/
       suffix: .jsp
+
+    static-path-pattern: /**
+
+  resources:
+    static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/,file:${web.upload-path}

@@ -1,0 +1,5 @@
+wxp\service\dao\OrderDetailsDAO.class
+wxp\service\entity\Order.class
+wxp\service\entity\OrderDetails.class
+wxp\service\entity\OrderOverView.class
+wxp\service\CorsFilter.class

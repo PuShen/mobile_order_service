@@ -1,0 +1,21 @@
+.grid_item{
+    width: 18%;
+    display: inline-block;
+    margin: 0.7% 0.7%;
+    border: 1px solid #cccccc;
+    box-shadow: 0 5px 3px #888888;
+    text-align: center;
+    background-image: url("../images/card_bg.jpg");
+}
+.deskno{
+    font-size: 30px;
+    font-weight: bolder;
+}
+.qr_code{
+    font-size: 13px;
+}
+.deskno_delete{
+    width: 20px;
+    height:20px;
+    float: right;
+}

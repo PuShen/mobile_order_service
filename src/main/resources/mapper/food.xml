@@ -15,11 +15,50 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="food">
+    <select id="selectCount" resultType="long">
+        select count(*) from food
+    </select>
+
     <select id="foodShow" resultType="hashmap">
-        select name,imageUrl,practice,description,price,number,restaurant from  food
+        select id,name,imageUrl,practice,description,price,number,labelId,restaurant,vareCount from  food
+    </select>
+
+    <select id="foodOfPage" resultType="hashmap" parameterType="hashmap">
+        select id,name,imageUrl,practice,description,price,number,labelId,restaurant,vareCount from  food limit #{startNum},#{endNum}
+    </select>
+
+    <select id="foodOfId" resultType="wxp.service.entity.Food">
+        select id,name,imageUrl,practice,description,price,number,labelId,restaurant,vareCount from  food where id in
+        <foreach collection="list" item="item" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </select>
+
+    <select id="selectFood" resultType="hashmap" parameterType="hashmap">
+        select id,name,imageUrl,practice,description,price,number,labelId,restaurant,vareCount from  food where labelId=#{labelId} limit #{startNum},#{endNum}
+    </select>
+
+    <select id="selectFoodById" resultType="hashmap" parameterType="java.lang.String">
+        select id,name,imageUrl,practice,description,price,number,labelId,restaurant,vareCount from  food where id=#{id}
     </select>
 
     <insert id="insertFood" parameterType="wxp.service.entity.Food">
-        insert into food(name,imageUrl,practice,description,price,number,restaurant) VALUES(#{name},#{imageUrl},#{practice},#{description},#{price},#{number},#{restaurant})
+        insert into food(id,name,imageUrl,practice,description,price,number,labelId,restaurant) VALUES(#{id},#{name},#{imageUrl},#{practice},#{description},#{price},#{number},#{labelId},#{restaurant})
     </insert>
+
+    <delete id="deleteFood" parameterType="hashmap">
+        delete from food where id=#{id}
+    </delete>
+
+    <update id="updateFood" parameterType="wxp.service.entity.Food">
+        update food set
+        <if test="imageUrl!=null or imageUrl!=''">
+            imageUrl=#{imageUrl},
+        </if>
+        practice=#{practice},description=#{description},price=#{price},labelId=#{labelId} where id=#{id}
+    </update>
+
+    <update id="updateFoodNum" parameterType="hashmap">
+        update food set number=#{number} where id=#{id}
+    </update>
 </mapper>

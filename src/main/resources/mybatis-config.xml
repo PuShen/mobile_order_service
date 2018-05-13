@@ -19,6 +19,9 @@
     <mappers>
         <mapper resource="mapper/food.xml"/>
         <mapper resource="mapper/deskno.xml"/>
+        <mapper resource="mapper/label.xml"/>
+        <mapper resource="mapper/user.xml"/>
+        <mapper resource="mapper/order_details.xml"/>
     </mappers>
 
 </configuration>
